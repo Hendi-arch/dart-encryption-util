@@ -2,19 +2,19 @@ dart compile exe \
   --output=bin/xencryption \
   --define=KEY=S3aG8EhQDWkZa7aad7DLtoC4r3aG27nL \
   --target-os=macos \
-  --output=xencryption \
+  --output=bin/xencryption \
   bin/xencryption.dart
 
 dart compile exe \
   --output=bin/xencryption \
   --define=KEY=S3aG8EhQDWkZa7aad7DLtoC4r3aG27nL \
   --target-os=linux \
-  --output=xencryption \
+  --output=bin/xencryption \
   bin/xencryption.dart
 
 dart compile exe \
   --output=bin/xencryption \
   --define=KEY=S3aG8EhQDWkZa7aad7DLtoC4r3aG27nL \
   --target-os=windows \
-  --output=xencryption \
+  --output=bin/xencryption \
   bin/xencryption.dart
